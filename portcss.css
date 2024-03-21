@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    background: url(portfolio1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -1%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight:600;
+    text-decoration: none;
+    color:rgb(0,71,100);
+    margin-top: -1%;
+}
+ul li a:hover{
+    color: skyblue;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color:navy;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color:rgba(0, 195, 255, 0.729);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(0,71,100);
+    margin:26px 0;
+    padding: 10px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: skyblue;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right:100px;
+    bottom: 0px;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left:40px;
+    transform: translate(-55%);
+    bottom: 0%;
+    transition: left 2s ease;
+}
+.image:hover .girl{
+    left:55%;
+}
+.icon a{
+    text-decoration: none;
+    color: #000;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color:rgb(1, 1, 114);
+    margin-right: -40px;
+    font-size:40px;
+    transition: .4s ease;
+}
+.icons ion.icon:hover{
+    color:rgb(0,71,100);
+}
